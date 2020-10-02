@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Nav Bar for the top of the page -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="../views/mypage_bootstrap.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../views/projects.html">Projects</a>
+          </li>
+      </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="https://github.com/madisonchodikov">
+                  <img class="rounded-circle" src="../resources/img/github_logo.jpeg" alt="Github Logo" height="20px" width="20px">
+              </a>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+<!-- Footer nav bar for LinkedIn-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-bottom">
+  <div class="mx-auto order-0">
+      <a class="nav-link" href="https://linkedin.com/madichodikov">
+          <img src="../resources/img/linkedin_logo.jpeg" alt="LinkedIn Logo" height="40px" width="70px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<body>
+    <div id="carouselProjectSlides" class="carousel slide" data-ride="carousel">
+
+        <!--Carousel Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProjectSlides" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProjectSlides" data-slide-to="1"></li>
+            <li data-target="#carouselProjectSlides" data-slide-to="2"></li>
+          </ol> 
+
+
+        <div class="carousel-inner">
+          <!--Carousel Slide 1-->
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../resources/img/robot.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card bg-dark text-white">
+                <div class="card-header">SAND-E: SEDs Autonomous Navigating Dune Explorer</div>
+                <div class="card-body">
+                  I was the president for the team and designed all the electrical systems within the bot. Although our
+                  bot did not place or win any awards, it was still a great experience where the entire team learned a lot.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Carousel Slide 2-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../resources/img/tmp117.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card bg-dark text-white">
+                <div class="card-header">SparkFun Electronics High-Precision Temperature Sensor Breakout</div>
+                <div class="card-body"> 
+                  I developed this when I interned at SparkFun Electronics. This was my first product that I got to sell on 
+                  the storefront. I developed the circuit, fabricated and populated the PCB, wrote the source code
+                  for a published Arduino library in C, and ran validation tests before sellilng to customers.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Carousel Slide 3-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../resources/img/tmp117.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="card bg-dark text-white">
+                <div class="card-header">SparkFun Electronics Qwiic Alphanumeric Display</div>
+                <div class="card-body">
+                  I developed this other product when I interned at SparkFun Electronics. This was my second product that I 
+                  designed the circuitry and PCB layout for. 
+                </div>
+              </div>
+            </div> 
+          </div>
+        
+          <!--Carousel Indicator 1-->
+          <a class="carousel-control-prev" href="#carouselProjectSlides" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <!--Carousel Indicator 2-->
+          <a class="carousel-control-next" href="#carouselProjectSlides" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+<br><br><br><br>
+
+</body>
